@@ -56,12 +56,12 @@ namespace Diagnostico2019.Exercises
         /// Made it this way so that way the Sort() code
         /// is not repeated when sorting either way.
 
-        private static bool IsGreater(int x, int y)
+        public static bool IsGreater(int x, int y)
         {
             return x > y;
         }
 
-        private static bool IsLess(int x, int y)
+        public static bool IsLess(int x, int y)
         {
             return x < y;
         }
