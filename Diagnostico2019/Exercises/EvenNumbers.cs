@@ -14,27 +14,7 @@ namespace Diagnostico2019.Exercises
 
         public static void GetNumbers()
         {
-            int[] array = new int[] { };
-
-            Console.WriteLine("Add numbers to sort them in descending order. When done insert 'done'.");
-
-            int enteredNumber;
-            while (true)
-            {
-                string line = Console.ReadLine();
-                if (int.TryParse(line, out enteredNumber))
-                {
-                    array = array.Concat(new int[] { enteredNumber }).ToArray();
-                }
-                else if (line == "done")
-                {
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("Only numbers are accepted.");
-                }
-            }
+            int[] array = IOHelper.GetNumericInput();
 
             Console.WriteLine("====================");
             foreach (var number in FilterEvenNumbers(array))
@@ -42,7 +22,7 @@ namespace Diagnostico2019.Exercises
                 Console.WriteLine($"Number {number} is even");
             }
 
-            Console.WriteLine(Environment.NewLine + $"There are {CountEvenNumbers(array)} even numbers");
+            Console.WriteLine(Environment.NewLine + $"There are { CountEvenNumbers(array) } even numbers");
         }
 
         /// The following two methods are not extrictly neccesary,
