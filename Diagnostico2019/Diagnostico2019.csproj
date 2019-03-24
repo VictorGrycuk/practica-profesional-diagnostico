@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Exercises\BubbleSort.cs" />
     <Compile Include="Exercises\EvenNumbers.cs" />
+    <Compile Include="Exercises\Fibonnacci.cs" />
     <Compile Include="Exercises\IOHelper.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="Program.cs" />
