@@ -5,7 +5,7 @@ namespace Diagnostico2019.Exercises
 {
     public static class IOHelper
     {
-        public static int[] GetNumericInput()
+        public static int[] GetNumericArrayInput()
         {
             Console.WriteLine("Add numbers to sort them in descending order. When done insert 'done'.");
             int[] array = new int[] { };
