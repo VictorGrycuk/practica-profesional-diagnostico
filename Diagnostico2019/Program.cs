@@ -7,12 +7,13 @@ using Diagnostico2019.Exercises;
 
 namespace Diagnostico2019
 {
-    class Program
+    static class Program
     {
         static void Main(string[] args)
         {
             Menu menu = new Menu("== Diagnostico 2019 ==", "Please select one of the following items:");
             menu.AddOption(EvenNumbers.GetNumbers, "Filter and show even numbers.");
+            menu.AddOption(BubbleSort.SortDescending, "Bubble sort array in descensing order.");
 
             while (!menu.Exit)
             {
