@@ -8,25 +8,36 @@ namespace Diagnostico2019.Exercises
 {
     public static class BubbleSort
     {
-        public static void Descending()
+        public static void Sort()
         {
-            int[] array = new int[] { 23, 1, 5, 2, 98, 14, 76, 98, 104, 3, 9 };
-            Console.WriteLine(string.Join(", ", array.Select(x => x.ToString()).ToArray()));
+            int[] array = IOHelper.GetNumericInput();
 
+            SortDescending(array);
+
+            Console.WriteLine(string.Join(", ", array.Select(x => x.ToString()).ToArray()));
+        }
+
+        public static int[] SortDescending(int[] array)
+        {
             for (int i = 0; i < array.Length; i++)
             {
                 for (int j = 0; j < array.Length; j++)
                 {
                     if (array[i] > array[j])
                     {
-                        array[i] += array[j];
-                        array[j] = array[i] - array[j];
-                        array[i] -= array[j];
+                        SwapValues(ref array, i, j);
                     }
                 }
             }
 
-            Console.WriteLine(string.Join(", ", array.Select(x => x.ToString()).ToArray()));
+            return array;
+        }
+
+        private static void SwapValues(ref int[] array, int i, int j)
+        {
+            array[i] += array[j];
+            array[j] = array[i] - array[j];
+            array[i] -= array[j];
         }
     }
 }
