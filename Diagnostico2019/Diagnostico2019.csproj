@@ -46,7 +46,7 @@
     <Compile Include="Exercises\EvenNumbers.cs" />
     <Compile Include="Exercises\Fibonnacci.cs" />
     <Compile Include="Exercises\IOHelper.cs" />
-    <Compile Include="Exercises\Mondays.cs" />
+    <Compile Include="Exercises\Dates.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
