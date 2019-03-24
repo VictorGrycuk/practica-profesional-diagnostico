@@ -14,7 +14,7 @@ namespace Diagnostico2019.Exercises
 
         public static void GetNumbers()
         {
-            int[] array = IOHelper.GetNumericInput();
+            int[] array = IOHelper.GetNumericArrayInput();
 
             Console.WriteLine("====================");
             foreach (var number in FilterEvenNumbers(array))

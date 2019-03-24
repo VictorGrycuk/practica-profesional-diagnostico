@@ -10,7 +10,7 @@ namespace Diagnostico2019.Exercises
     {
         public static void SortDescending()
         {
-            int[] array = IOHelper.GetNumericInput();
+            int[] array = IOHelper.GetNumericArrayInput();
 
             Sort(array, IsGreater);
 
