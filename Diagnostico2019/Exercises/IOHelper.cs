@@ -5,9 +5,9 @@ namespace Diagnostico2019.Exercises
 {
     public static class IOHelper
     {
-        public static int[] GetNumericInput()
+        public static int[] GetNumericArrayInput()
         {
-            Console.WriteLine("Add numbers to sort them in descending order. When done insert 'done'.");
+            Console.WriteLine("Add numbers and when ready insert 'done'.");
             int[] array = new int[] { };
             while (true)
             {
@@ -27,6 +27,24 @@ namespace Diagnostico2019.Exercises
             }
 
             return array;
+        }
+
+        public static int GetNumericInput()
+        {
+            Console.WriteLine("Insert a number.");
+            string line = Console.ReadLine();
+            if (int.TryParse(line, out int enteredNumber))
+            {
+                return enteredNumber;
+            }
+            else
+            {
+                Console.WriteLine("Only numbers are accepted." + Environment.NewLine);
+                GetNumericInput();
+            }
+
+            // Doesnt really get here because of the recursion
+            return -1;
         }
     }
 }
