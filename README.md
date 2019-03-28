@@ -2,7 +2,7 @@
 
 **Profesor**: Gastón Weingand
 
-**Build Status:** ![https://dev.azure.com/victorgrycuk-facultad/Práctica%20Profesional%20-%20Diagnóstico%202019/_build?definitionId=1](https://dev.azure.com/victorgrycuk-facultad/Práctica Profesional - Diagnóstico 2019/_apis/build/status/VictorGrycuk.practica-profesional-diagnostico?branchName=master)
+**Build Status:** ![](https://dev.azure.com/victorgrycuk-facultad/Práctica Profesional - Diagnóstico 2019/_apis/build/status/VictorGrycuk.practica-profesional-diagnostico?branchName=master)
 
 ---
 
