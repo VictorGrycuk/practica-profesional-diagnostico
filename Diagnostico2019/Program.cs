@@ -16,6 +16,7 @@ namespace Diagnostico2019
             menu.AddOption(BubbleSort.SortDescending, "Bubble sort array in descensing order.");
             menu.AddOption(Dates.GetMondays, "Shows the list of dates of a specific week day between two given dates.");
             menu.AddOption(Fibonacci.GetFibonacci, "Returns a Fibonaci sequence of a given lenght.");
+            menu.AddOption(ImageValidation.Validate, "Takes two images and returns wether they are the same or not.");
 
             while (!menu.Exit)
             {
