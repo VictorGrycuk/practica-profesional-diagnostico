@@ -46,5 +46,23 @@ namespace Diagnostico2019.Exercises
             // Doesnt really get here because of the recursion
             return -1;
         }
+
+        public static DateTime GetDateInput()
+        {
+            Console.WriteLine("Insert a date:");
+            string line = Console.ReadLine();
+            if (DateTime.TryParse(line, out DateTime enteredDate))
+            {
+                return enteredDate;
+            }
+            else
+            {
+                Console.WriteLine("The entered text is not a valid date." + Environment.NewLine);
+                GetDateInput();
+            }
+
+            // Doesnt really get here because of the recursion
+            return DateTime.Now;
+        }
     }
 }
