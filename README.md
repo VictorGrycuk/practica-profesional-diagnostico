@@ -2,6 +2,27 @@
 
 **Profesor**: Gastón Weingand
 
+**Build Status:** [![Build Status](https://dev.azure.com/victorgrycuk-facultad/Práctica Profesional - Diagnóstico 2019/_apis/build/status/VictorGrycuk.practica-profesional-diagnostico?branchName=master)](https://dev.azure.com/victorgrycuk-facultad/Práctica Profesional - Diagnóstico 2019/_build/latest?definitionId=1&branchName=master)
+
+---
+
+## Vista General
+
+| Task                                 | Status                                                       |
+| ------------------------------------ | ------------------------------------------------------------ |
+| Find even numbers in array           | [Done](https://github.com/VictorGrycuk/practica-profesional-diagnostico/blob/master/Diagnostico2019/Exercises/EvenNumbers.cs) :heavy_check_mark: |
+| Bubble Sort                          | [Done](https://github.com/VictorGrycuk/practica-profesional-diagnostico/blob/master/Diagnostico2019/Exercises/BubbleSort.cs) :heavy_check_mark: |
+| Get every Monday between given dates | [Done](https://github.com/VictorGrycuk/practica-profesional-diagnostico/blob/master/Diagnostico2019/Exercises/Dates.cs) :heavy_check_mark: |
+| Generate Fibonacci Sequence          | [Done](https://github.com/VictorGrycuk/practica-profesional-diagnostico/blob/master/Diagnostico2019/Exercises/Fibonnacci.cs) :heavy_check_mark: |
+| Compare Images                       | In Progress :construction:                                   |
+| Calculate Ohm's law                  | To Do :bookmark_tabs:                                        |
+| Distance between two given points    | To Do :bookmark_tabs:                                        |
+| Create a Hash algorithm              | To Do :bookmark_tabs:                                        |
+| Jagged array                         | To Do :bookmark_tabs:                                        |
+| Parabolic projectile                 | To Do :bookmark_tabs:                                        |
+
+---
+
 ### Realizar los siguientes ejercicios de repaso-diagnóstico.
 
 1. Dado el vector `{45, 23, 52, 68, 2, 98, 106, 107, 465, 23, 18}` decir **cuántos y cuáles son números pares**.
