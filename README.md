@@ -4,6 +4,8 @@
 
 **Build Status:** [![Build Status](https://dev.azure.com/victorgrycuk-facultad/PracticaProfesional-Diagnostico2019/_apis/build/status/VictorGrycuk.practica-profesional-diagnostico?branchName=master)](https://dev.azure.com/victorgrycuk-facultad/PracticaProfesional-Diagnostico2019/_build/latest?definitionId=1&branchName=master)
 
+Follow the build process [here](https://dev.azure.com/victorgrycuk-facultad/PracticaProfesional-Diagnostico2019/_build?definitionId=1).
+
 ---
 
 ## Vista General
