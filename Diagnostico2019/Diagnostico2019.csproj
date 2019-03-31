@@ -46,6 +46,7 @@
     <Compile Include="Exercises\BubbleSort.cs" />
     <Compile Include="Exercises\EvenNumbers.cs" />
     <Compile Include="Exercises\Fibonnacci.cs" />
+    <Compile Include="Exercises\Hash.cs" />
     <Compile Include="Exercises\ImageValidation.cs" />
     <Compile Include="Exercises\IOHelper.cs" />
     <Compile Include="Exercises\Dates.cs" />
