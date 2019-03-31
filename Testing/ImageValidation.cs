@@ -29,7 +29,7 @@ namespace Testing
         {
             Assert.IsTrue(ImageValidation.CheckImagesStream(GetTestImage("Image1.png"), GetTestImage("Image4.png")));
 
-            Assert.IsTrue(!ImageValidation.CheckImagesStream(GetTestImage("Image1.png"), GetTestImage("Image3.png")));
+            Assert.IsTrue(!ImageValidation.CheckImagesStream(GetTestImage("Image2.png"), GetTestImage("Image3.png")));
         }
 
         public string GetTestImage(string name)
