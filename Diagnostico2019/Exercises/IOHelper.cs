@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 
 namespace Diagnostico2019.Exercises
@@ -63,6 +65,37 @@ namespace Diagnostico2019.Exercises
 
             // Doesnt really get here because of the recursion
             return DateTime.Now;
+        }
+
+        public static string GetFileInput()
+        {
+            string filePath = Console.ReadLine();
+            if (File.Exists(filePath))
+            {
+                return filePath;
+            }
+
+            do
+            {
+                Console.WriteLine(Environment.NewLine + "The entered file does not exists. Please enter a new path.");
+                filePath = Console.ReadLine();
+            } while (!File.Exists(filePath));
+
+            return filePath;
+        }
+
+        public static List<string> GetFileAsHexa(string filePath)
+        {
+            FileStream fs = new FileStream(filePath, FileMode.Open);
+            var file = new List<string>();
+            int hexIn;
+
+            for (int i = 0; (hexIn = fs.ReadByte()) != -1; i++)
+            {
+                file.Add(string.Format("{0:X2}", hexIn));
+            }
+
+            return file;
         }
     }
 }
