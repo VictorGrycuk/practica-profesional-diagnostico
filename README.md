@@ -2,7 +2,7 @@
 
 **Profesor**: Gastón Weingand
 
-**Build Status:** [![Build Status](https://dev.azure.com/victorgrycuk-facultad/PracticaProfesional-Diagnostico2019/_apis/build/status/VictorGrycuk.practica-profesional-diagnostico?branchName=master)](https://dev.azure.com/victorgrycuk-facultad/PrácticaProfesional-Diagnóstico2019/_build/latest?definitionId=1&branchName=master)
+**Build Status:** ![](https://dev.azure.com/victorgrycuk-facultad/Práctica Profesional - Diagnóstico 2019/_apis/build/status/VictorGrycuk.practica-profesional-diagnostico?branchName=master)
 
 ---
 
@@ -14,7 +14,7 @@
 | Bubble Sort                          | [Done](https://github.com/VictorGrycuk/practica-profesional-diagnostico/blob/master/Diagnostico2019/Exercises/BubbleSort.cs) :heavy_check_mark: |
 | Get every Monday between given dates | [Done](https://github.com/VictorGrycuk/practica-profesional-diagnostico/blob/master/Diagnostico2019/Exercises/Dates.cs) :heavy_check_mark: |
 | Generate Fibonacci Sequence          | [Done](https://github.com/VictorGrycuk/practica-profesional-diagnostico/blob/master/Diagnostico2019/Exercises/Fibonnacci.cs) :heavy_check_mark: |
-| Compare Images                       | In Progress :construction:                                   |
+| Compare Images                       | [Done](https://github.com/VictorGrycuk/practica-profesional-diagnostico/blob/master/Diagnostico2019/Exercises/ImageValidation.cs) :heavy_check_mark: |
 | Calculate Ohm's law                  | To Do :bookmark_tabs:                                        |
 | Distance between two given points    | To Do :bookmark_tabs:                                        |
 | Create a Hash algorithm              | To Do :bookmark_tabs:                                        |
