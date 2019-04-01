@@ -18,7 +18,7 @@ Follow the build process [here](https://dev.azure.com/victorgrycuk-facultad/Prac
 | Generate Fibonacci Sequence          | [Done](https://github.com/VictorGrycuk/practica-profesional-diagnostico/blob/master/Diagnostico2019/Exercises/Fibonnacci.cs) :heavy_check_mark: |
 | Compare Images                       | [Done](https://github.com/VictorGrycuk/practica-profesional-diagnostico/blob/master/Diagnostico2019/Exercises/ImageValidation.cs) :heavy_check_mark: |
 | Calculate Ohm's law                  | [Done](https://github.com/VictorGrycuk/practica-profesional-diagnostico/blob/master/Diagnostico2019/Exercises/OhmLaw.cs) :heavy_check_mark: |
-| Distance between two given points    | To Do :bookmark_tabs:                                        |
+| Distance between two given points    | [Done](https://github.com/VictorGrycuk/practica-profesional-diagnostico/blob/master/Diagnostico2019/Exercises/TwoPoints.cs) :heavy_check_mark: |
 | Create a Hash algorithm              | [Done](https://github.com/VictorGrycuk/practica-profesional-diagnostico/blob/master/Diagnostico2019/Exercises/Hash.cs) :heavy_check_mark: |
 | Jagged array                         | To Do :bookmark_tabs:                                        |
 | Parabolic projectile                 | To Do :bookmark_tabs:                                        |
