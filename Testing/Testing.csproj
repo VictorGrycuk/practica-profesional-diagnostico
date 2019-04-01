@@ -57,6 +57,7 @@
     <Compile Include="ImageValidation.cs" />
     <Compile Include="Hash.cs" />
     <Compile Include="OhmLaw.cs" />
+    <Compile Include="TwoPoints.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -51,6 +51,7 @@
     <Compile Include="Exercises\IOHelper.cs" />
     <Compile Include="Exercises\Dates.cs" />
     <Compile Include="Exercises\OhmLaw.cs" />
+    <Compile Include="Exercises\TwoPoints.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
