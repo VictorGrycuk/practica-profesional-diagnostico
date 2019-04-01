@@ -17,6 +17,7 @@ namespace Diagnostico2019
             menu.AddOption(Dates.GetMondays, "Shows the list of dates of a specific week day between two given dates.");
             menu.AddOption(Fibonacci.GetFibonacci, "Returns a Fibonaci sequence of a given lenght.");
             menu.AddOption(ImageValidation.Validate, "Takes two images and returns wether they are the same or not.");
+            menu.AddOption(OhmLaw.ShowMenu, "Ohm's calculator.");
             menu.AddOption(Hash.Encode, "Generates a 16 characters hash from a given string.");
 
             while (!menu.Exit)
