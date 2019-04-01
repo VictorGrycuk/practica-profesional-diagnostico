@@ -17,7 +17,7 @@ Follow the build process [here](https://dev.azure.com/victorgrycuk-facultad/Prac
 | Get every Monday between given dates | [Done](https://github.com/VictorGrycuk/practica-profesional-diagnostico/blob/master/Diagnostico2019/Exercises/Dates.cs) :heavy_check_mark: |
 | Generate Fibonacci Sequence          | [Done](https://github.com/VictorGrycuk/practica-profesional-diagnostico/blob/master/Diagnostico2019/Exercises/Fibonnacci.cs) :heavy_check_mark: |
 | Compare Images                       | [Done](https://github.com/VictorGrycuk/practica-profesional-diagnostico/blob/master/Diagnostico2019/Exercises/ImageValidation.cs) :heavy_check_mark: |
-| Calculate Ohm's law                  | To Do :bookmark_tabs:                                        |
+| Calculate Ohm's law                  | [Done](https://github.com/VictorGrycuk/practica-profesional-diagnostico/blob/master/Diagnostico2019/Exercises/OhmLaw.cs) :heavy_check_mark: |
 | Distance between two given points    | To Do :bookmark_tabs:                                        |
 | Create a Hash algorithm              | [Done](https://github.com/VictorGrycuk/practica-profesional-diagnostico/blob/master/Diagnostico2019/Exercises/Hash.cs) :heavy_check_mark: |
 | Jagged array                         | To Do :bookmark_tabs:                                        |
