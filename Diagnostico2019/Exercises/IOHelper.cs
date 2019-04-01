@@ -34,6 +34,17 @@ namespace Diagnostico2019.Exercises
         public static int GetNumericInput()
         {
             Console.WriteLine("Insert a number.");
+            return GetNumeric();
+        }
+
+        public static int GetNumericInput(string text)
+        {
+            Console.WriteLine(text);
+            return GetNumeric();
+        }
+
+        private static int GetNumeric()
+        {
             string line = Console.ReadLine();
             if (int.TryParse(line, out int enteredNumber))
             {
