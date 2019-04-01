@@ -56,7 +56,7 @@ namespace Diagnostico2019.Exercises
                 GetNumericInput();
             }
 
-            // Doesnt really get here because of the recursion
+            // Doesn't really get here because of the recursion
             return -1;
         }
 
@@ -74,7 +74,7 @@ namespace Diagnostico2019.Exercises
                 GetDateInput();
             }
 
-            // Doesnt really get here because of the recursion
+            // Doesn't really get here because of the recursion
             return DateTime.Now;
         }
 

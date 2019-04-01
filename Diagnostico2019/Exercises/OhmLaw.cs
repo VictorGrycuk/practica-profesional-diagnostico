@@ -15,8 +15,6 @@ namespace Diagnostico2019.Exercises
             menu.AddOption(GetCurrent, "Calculates the current from voltage and resistance.");
             menu.AddOption(GetResistance, "Calculates the resistance from voltage and current.");
 
-            //menu.ShowMenu();
-
             while (!menu.Exit)
             {
                 Console.Clear();

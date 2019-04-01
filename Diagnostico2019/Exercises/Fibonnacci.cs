@@ -10,7 +10,7 @@ namespace Diagnostico2019.Exercises
     {
         public static void GetFibonacci()
         {
-            Console.WriteLine("Enter the desired lenght of the Fibonacci sequence. Minimum length is 2 and maximum is 47 due to capacity storage limitation");
+            Console.WriteLine("Enter the desired length of the Fibonacci sequence. Minimum length is 2 and maximum is 47 due to capacity storage limitation");
 
             Console.WriteLine(string.Join(", ", GetSequence(IOHelper.GetNumericInput()).Select(x => x.ToString())));
         }
@@ -23,7 +23,7 @@ namespace Diagnostico2019.Exercises
             {
                 int newFibonacciElement = fibonacci[i] + fibonacci[i + 1];
 
-                // Due to the limitation of int type, if we overflow it it will become negative. If that happens we escape the loop
+                // Due to the limitation of int type, if we overflow it will become negative. If that happens we escape the loop
                 if (IsNegative(newFibonacciElement)) break;
 
                 // Otherwise we simply add it to the sequence

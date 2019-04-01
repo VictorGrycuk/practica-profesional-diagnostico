@@ -9,7 +9,7 @@ namespace Diagnostico2019.Exercises
     public static class EvenNumbers
     {
         /// <summary>
-        /// Trtied to avoid the use of List<int> since the exercise used the word "vector"
+        /// Tried to avoid the use of List<int> since the exercise used the word "vector"
         /// </summary>
 
         public static void GetNumbers()
@@ -25,7 +25,7 @@ namespace Diagnostico2019.Exercises
             Console.WriteLine(Environment.NewLine + $"There are { CountEvenNumbers(array) } even numbers");
         }
 
-        /// The following two methods are not extrictly neccesary,
+        /// The following two methods are not extrictly necessary,
         /// their logic was extracted just to be used for unit testing.
 
         public static int[] FilterEvenNumbers(int[] number)

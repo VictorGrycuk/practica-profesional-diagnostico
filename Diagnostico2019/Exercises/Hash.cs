@@ -24,7 +24,7 @@ namespace Diagnostico2019.Exercises
         ///    iii. If there is an overflow (value over 16), add the excess to the next item in the array
         /// 3. Add padding in case it is needed
         /// 
-        /// I created this funtion having the following rules in mind:
+        /// I created this function having the following rules in mind:
         /// * It should always return the same value for the same input
         /// * It should always return the same amount of characters every time
         /// * Each output should be as much as different as possible for different inputs
@@ -37,7 +37,7 @@ namespace Diagnostico2019.Exercises
 
             for (int i = 0; i < repetitions; i++)
             {
-                // After calculating the hash, we add padding if it doesnt have 16 characters
+                // After calculating the hash, we add padding if it doesn't have 16 characters
                 value = Calculate(value);
             }
 
