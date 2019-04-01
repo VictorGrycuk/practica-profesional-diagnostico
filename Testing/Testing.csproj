@@ -59,6 +59,7 @@
     <Compile Include="OhmLaw.cs" />
     <Compile Include="TwoPoints.cs" />
     <Compile Include="JaggedArray.cs" />
+    <Compile Include="ParabolicProjectile.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
