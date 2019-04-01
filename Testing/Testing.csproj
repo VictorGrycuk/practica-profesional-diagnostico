@@ -55,6 +55,7 @@
     <Compile Include="Fibonacci.cs" />
     <Compile Include="Mondays.cs" />
     <Compile Include="ImageValidation.cs" />
+    <Compile Include="Hash.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
