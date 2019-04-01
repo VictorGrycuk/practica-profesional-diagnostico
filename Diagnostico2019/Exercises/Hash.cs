@@ -115,7 +115,7 @@ namespace Diagnostico2019.Exercises
 
             while (padding.Length <= neededPadding)
             {
-                padding += InvertString(Calculate(Math.Log10(GetHexValue(padding[0])).ToString()));
+                padding += InvertString(Calculate(Math.Log10(GetHexValue(padding[0]) * neededPadding).ToString()));
             }
 
             return padding.Substring(0, neededPadding) + value;
