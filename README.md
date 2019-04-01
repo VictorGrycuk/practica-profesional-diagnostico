@@ -20,7 +20,7 @@ Follow the build process [here](https://dev.azure.com/victorgrycuk-facultad/Prac
 | Calculate Ohm's law                  | [Done](https://github.com/VictorGrycuk/practica-profesional-diagnostico/blob/master/Diagnostico2019/Exercises/OhmLaw.cs) :heavy_check_mark: |
 | Distance between two given points    | [Done](https://github.com/VictorGrycuk/practica-profesional-diagnostico/blob/master/Diagnostico2019/Exercises/TwoPoints.cs) :heavy_check_mark: |
 | Create a Hash algorithm              | [Done](https://github.com/VictorGrycuk/practica-profesional-diagnostico/blob/master/Diagnostico2019/Exercises/Hash.cs) :heavy_check_mark: |
-| Jagged array                         | To Do :bookmark_tabs:                                        |
+| Jagged array                         | [Done](https://github.com/VictorGrycuk/practica-profesional-diagnostico/blob/master/Diagnostico2019/Exercises/JaggedArray.cs) :heavy_check_mark: |
 | Parabolic projectile                 | To Do :bookmark_tabs:                                        |
 
 ---
