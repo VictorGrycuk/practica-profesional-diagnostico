@@ -20,6 +20,7 @@ namespace Diagnostico2019
             menu.AddOption(OhmLaw.ShowMenu, "Ohm's calculator.");
             menu.AddOption(TwoPoints.GetDistance, "Calculates the distance between two points.");
             menu.AddOption(Hash.Encode, "Generates a 16 characters hash from a given string.");
+            menu.AddOption(ResolveJaggedArray.FindElement, "Find a value in a jagged array and returns its position.");
 
             while (!menu.Exit)
             {
@@ -30,3 +31,4 @@ namespace Diagnostico2019
         }
     }
 }
+
