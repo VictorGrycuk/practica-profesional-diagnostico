@@ -21,7 +21,7 @@ Follow the build process [here](https://dev.azure.com/victorgrycuk-facultad/Prac
 | Distance between two given points    | [Done](https://github.com/VictorGrycuk/practica-profesional-diagnostico/blob/master/Diagnostico2019/Exercises/TwoPoints.cs) :heavy_check_mark: |
 | Create a Hash algorithm              | [Done](https://github.com/VictorGrycuk/practica-profesional-diagnostico/blob/master/Diagnostico2019/Exercises/Hash.cs) :heavy_check_mark: |
 | Jagged array                         | [Done](https://github.com/VictorGrycuk/practica-profesional-diagnostico/blob/master/Diagnostico2019/Exercises/JaggedArray.cs) :heavy_check_mark: |
-| Parabolic projectile                 | To Do :bookmark_tabs:                                        |
+| Parabolic projectile                 | [Done](https://github.com/VictorGrycuk/practica-profesional-diagnostico/blob/master/Diagnostico2019/Exercises/ParabolicProjectile.cs) :heavy_check_mark: |
 
 ---
 
