@@ -19,7 +19,7 @@ Follow the build process [here](https://dev.azure.com/victorgrycuk-facultad/Prac
 | Compare Images                       | [Done](https://github.com/VictorGrycuk/practica-profesional-diagnostico/blob/master/Diagnostico2019/Exercises/ImageValidation.cs) :heavy_check_mark: |
 | Calculate Ohm's law                  | To Do :bookmark_tabs:                                        |
 | Distance between two given points    | To Do :bookmark_tabs:                                        |
-| Create a Hash algorithm              | To Do :bookmark_tabs:                                        |
+| Create a Hash algorithm              | [Done](https://github.com/VictorGrycuk/practica-profesional-diagnostico/blob/master/Diagnostico2019/Exercises/Hash.cs) :heavy_check_mark: |
 | Jagged array                         | To Do :bookmark_tabs:                                        |
 | Parabolic projectile                 | To Do :bookmark_tabs:                                        |
 
