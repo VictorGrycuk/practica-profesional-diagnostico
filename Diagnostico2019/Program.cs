@@ -21,6 +21,7 @@ namespace Diagnostico2019
             menu.AddOption(TwoPoints.GetDistance, "Calculates the distance between two points.");
             menu.AddOption(Hash.Encode, "Generates a 16 characters hash from a given string.");
             menu.AddOption(ResolveJaggedArray.FindElement, "Find a value in a jagged array and returns its position.");
+            menu.AddOption(ParabolicProjectile.Calculate, "Calculates the maximum distance of X and Y of a parabolic projectile using initial speed and angle.");
 
             while (!menu.Exit)
             {
