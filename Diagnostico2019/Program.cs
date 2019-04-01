@@ -18,6 +18,7 @@ namespace Diagnostico2019
             menu.AddOption(Fibonacci.GetFibonacci, "Returns a Fibonaci sequence of a given lenght.");
             menu.AddOption(ImageValidation.Validate, "Takes two images and returns wether they are the same or not.");
             menu.AddOption(OhmLaw.ShowMenu, "Ohm's calculator.");
+            menu.AddOption(TwoPoints.GetDistance, "Calculates the distance between two points.");
             menu.AddOption(Hash.Encode, "Generates a 16 characters hash from a given string.");
 
             while (!menu.Exit)
