@@ -50,6 +50,7 @@
     <Compile Include="Exercises\ImageValidation.cs" />
     <Compile Include="Exercises\IOHelper.cs" />
     <Compile Include="Exercises\Dates.cs" />
+    <Compile Include="Exercises\JaggedArray.cs" />
     <Compile Include="Exercises\OhmLaw.cs" />
     <Compile Include="Exercises\TwoPoints.cs" />
     <Compile Include="Menu.cs" />

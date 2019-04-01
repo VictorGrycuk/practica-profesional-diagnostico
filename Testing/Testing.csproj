@@ -58,6 +58,7 @@
     <Compile Include="Hash.cs" />
     <Compile Include="OhmLaw.cs" />
     <Compile Include="TwoPoints.cs" />
+    <Compile Include="JaggedArray.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
